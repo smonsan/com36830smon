@@ -208,13 +208,9 @@ h3 {
     /* border: 2px solid #FFFFFF; */
     box-shadow: 2px 4px 40px 4px #000;
     border-radius: 5%;
-    /* revisar que medida queda mejor para el width */
-    /* width: 400px; */
-    width: 30vw;
-    /* min-width: 280px; */
     max-width: 400px;
     margin: auto;
-    padding: 20px;
+    padding: 5px;
     background-color: #9FC2CC;
 }
 
@@ -233,12 +229,11 @@ form {
     padding: 2px;
     margin: 10px 11px;
     /* transition */
-    transition: all 1s;
+    transition: all .5s ease-in-out;
 }
 
-.inputForm:focus {
-    width: 285px;
-    height: 30px;
+.inputFocus:focus {
+    height: 40px;
 }
 
 .buttonReg {
@@ -296,7 +291,7 @@ form {
 }
 
 @media (max-width:768px) {
-    span {
+    .textpilares span {
         display: none;
     }
 
