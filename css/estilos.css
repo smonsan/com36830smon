@@ -22,7 +22,6 @@ body {
     background: -webkit-linear-gradient(180deg, hsla(242, 60%, 36%, 1) 5%, hsla(203, 40%, 43%, 1) 100%);
 
     filter: progid: DXImageTransform.Microsoft.gradient(startColorstr="#272492", endColorstr="#42799A", GradientType=1);
-    /* ultimos cambios para ubicar el footer siempre abajo */
     min-height: 100vh;
     position: relative;
     padding-bottom: 150px;
@@ -30,17 +29,14 @@ body {
 
 header {
     color: #FFFFFF;
-
 }
 
 .imagenlogo {
     width: 150px;
     height: 40px;
-
 }
 
 .nav-link {
-    /* text-decoration: none; */
     font-family: 'Roboto', sans-serif;
     color: #FFFFFF;
     font-size: 1.2rem;
@@ -50,7 +46,6 @@ header {
 
 .navbar-toggler-icon {
     background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
-
 }
 
 .navbar-toggler {
@@ -85,14 +80,12 @@ header {
     line-height: 2;
     font-weight: 700;
     margin: 50px;
-    /* margin: 5% */
     padding: 5px;
 }
 
 .principaltext {
     text-align: justify;
     font-size: 1.5rem;
-    /* font-weight:600; */
     line-height: 1.5;
     padding: 1%;
     margin: 2% 10%;
@@ -110,7 +103,6 @@ header {
     font-family: 'Quicksand', sans-serif;
 }
 
-
 .textinblocks p {
     margin-bottom: 0;
 }
@@ -121,9 +113,6 @@ header {
 
 .sectionmain h2 {
     text-align: center;
-}
-
-h2 {
     color: #FFFFFF;
     font-size: 2.1rem;
     padding: 2px;
@@ -185,7 +174,6 @@ h3 {
     100% {
         transform: perspective(800px) rotateY(-20deg);
     }
-
 }
 
 .imagentarjeta {
@@ -205,7 +193,6 @@ h3 {
     display: flex;
     flex-direction: column;
     align-items: center;
-    /* border: 2px solid #FFFFFF; */
     box-shadow: 2px 4px 40px 4px #000;
     border-radius: 5%;
     max-width: 400px;
@@ -215,7 +202,6 @@ h3 {
 }
 
 form {
-    /* width: 350px; */
     width: 90%;
     max-width: 350px;
     text-align: center;
@@ -223,12 +209,10 @@ form {
 }
 
 .inputForm {
-    /* width: 250px; */
     width: 90%;
     max-width: 250px;
     padding: 2px;
     margin: 10px 11px;
-    /* transition */
     transition: all .5s ease-in-out;
 }
 
@@ -244,7 +228,6 @@ form {
 .Form label {
     color: #000;
 }
-
 
 .footer {
     background-color: cornflowerblue;
