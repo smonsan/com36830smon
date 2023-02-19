@@ -1,0 +1,27 @@
+@media (min-width:320px) and (max-width: 420px) {
+	.imagentarjeta {
+		max-height: 350px;
+	}
+	.imageninversion {
+		max-width: 300px;
+	}
+}
+@media (max-width:768px) {
+	.textpilares {
+		span {
+			display: none;
+		}
+	}
+	.pilares {
+		.d-flex {
+			flex-wrap: wrap;
+			justify-content: center;
+		}
+	}
+}
+@media (max-width:990px) {
+	.dropdown-menu.show {
+		background-color: $background-color_2;
+		border: transparent;
+	}
+}

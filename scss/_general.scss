@@ -1,0 +1,21 @@
+@import "https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;600;700&family=Roboto:wght@100;400;500;700;900&display=swap";
+* {
+	padding: 0%;
+	margin: 0%;
+	box-sizing: border-box;
+}
+html {
+	min-height: 100vh;
+}
+body {
+	font-family: $font-family_1;
+	color: $color_1;
+	background: hsla(242, 60%, 36%, 1);
+	background: linear-gradient(180deg, hsla(242, 60%, 36%, 1) 5%, hsla(203, 40%, 43%, 1) 100%);
+	background: -moz-linear-gradient(180deg, hsla(242, 60%, 36%, 1) 5%, hsla(203, 40%, 43%, 1) 100%);
+	background: -webkit-linear-gradient(180deg, hsla(242, 60%, 36%, 1) 5%, hsla(203, 40%, 43%, 1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#272492", endColorstr="#42799A", GradientType=1);
+	min-height: 100vh;
+	position: relative;
+	padding-bottom: 150px;
+}

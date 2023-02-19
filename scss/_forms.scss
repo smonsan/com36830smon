@@ -1,0 +1,38 @@
+.divform {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	box-shadow: 2px 4px 40px 4px #000;
+	border-radius: 5%;
+	max-width: 400px;
+	margin: auto;
+	padding: 5px;
+	background-color: $background-color_4;
+}
+form {
+	width: 90%;
+	max-width: 350px;
+	text-align: center;
+	margin: 20px;
+}
+.inputForm {
+	width: 90%;
+	max-width: 250px;
+	padding: 2px;
+	margin: 10px 11px;
+	transition: all .5s ease-in-out;
+}
+.inputFocus {
+	&:focus {
+		height: 40px;
+	}
+}
+.buttonReg {
+	width: fit-content;
+	margin: 10px 40px;
+}
+.Form {
+	label {
+		color: $color_2;
+	}
+}
