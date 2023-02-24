@@ -50,12 +50,15 @@ header {
 
 .dropdown-menu {
   min-width: 5rem;
-  text-align: center;
+  text-align: start;
+  margin-left: 15px;
 }
 
 .dropdown-menu.show {
   background-color: #3158A6;
   display: inline-block;
+  margin-top: 0;
+  transform: translateY(-10px);
 }
 
 .dropdown-item {
@@ -73,12 +76,12 @@ header {
   font-size: 40px;
   line-height: 2;
   font-weight: 700;
-  margin: 50px;
+  margin: 50px 50px 25px 50px;
   padding: 5px;
 }
 
 .principaltext {
-  text-align: justify;
+  text-align: center;
   font-size: 1.5rem;
   line-height: 1.5;
   padding: 1%;
@@ -138,9 +141,6 @@ h3 {
 .carousel {
   width: 290px;
 }
-.carousel div div {
-  background-color: #3158A6;
-}
 .carousel div div div {
   background-color: transparent;
 }
@@ -151,10 +151,12 @@ h3 {
 
 .carousel-item img {
   width: 200px;
+  padding-top: 30px;
 }
 
 .carousel-inner {
   border-radius: 5%;
+  background-image: radial-gradient(circle, #F0F3F4, #85929E);
 }
 
 @keyframes aparecer {
@@ -176,6 +178,7 @@ h3 {
 }
 .section3 img {
   height: 40%;
+  margin-top: 20px;
 }
 
 .imagenpilares {

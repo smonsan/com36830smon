@@ -3,12 +3,12 @@
 	font-size: 40px;
 	line-height: 2;
 	font-weight: 700;
-	margin: 50px;
+	margin: 50px 50px 25px 50px;
 	padding: 5px;
 }
 
 .principaltext {
-	text-align: justify;
+	text-align: center;
 	font-size: 1.5rem;
 	line-height: 1.5;
 	padding: 1%;
@@ -81,10 +81,8 @@ h3 {
 
 	div {
 		div {
-			background-color: $background-color_1;
-
 			div {
-				background-color: transparent;
+				background-color: $background-color_2;
 			}
 		}
 	}
@@ -98,9 +96,11 @@ h3 {
 .carousel-item {
 	img {
 		width: 200px;
+		padding-top: 30px;
 	}
 }
 
 .carousel-inner {
 	border-radius: 5%;
+	background-image: $background-image_4
 }
