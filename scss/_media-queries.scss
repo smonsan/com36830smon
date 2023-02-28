@@ -6,6 +6,7 @@
 		max-width: 300px;
 	}
 }
+
 @media (max-width:768px) {
 	.textpilares {
 		span {
@@ -19,6 +20,7 @@
 		}
 	}
 }
+
 @media (max-width:990px) {
 	.dropdown-menu.show {
 		background-color: $background-color_2;

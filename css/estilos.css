@@ -199,9 +199,6 @@ h3 {
 }
 
 .divform {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
   box-shadow: 2px 4px 40px 4px #000;
   border-radius: 5%;
   max-width: 400px;
@@ -209,33 +206,29 @@ h3 {
   padding: 5px;
   background-color: #9FC2CC;
 }
-
-form {
+.divform .Form {
   width: 90%;
   max-width: 350px;
   text-align: center;
   margin: 20px;
 }
-
-.inputForm {
+.divform .Form label {
+  color: #000;
+}
+.divform .Form .inputForm {
   width: 90%;
   max-width: 250px;
   padding: 2px;
   margin: 10px 11px;
   transition: all 0.5s ease-in-out;
 }
-
-.inputFocus:focus {
+.divform .Form .inputFocus:focus {
   height: 40px;
 }
-
-.buttonReg {
+.divform .Form .buttonReg {
   width: fit-content;
   margin: 10px 40px;
-}
-
-.Form label {
-  color: #000;
+  padding: 4px;
 }
 
 .footer {
