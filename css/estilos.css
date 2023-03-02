@@ -90,14 +90,14 @@ header {
 
 .textinblocks div {
   border: 2px;
-  background-color: cornflowerblue;
   box-shadow: 2px 4px 10px #000;
+  font-family: "Quicksand", sans-serif;
+  background-color: cornflowerblue;
   margin: 20px 20px;
   padding: 20px;
   border-radius: 4%;
   max-width: 400px;
   min-width: 200px;
-  font-family: "Quicksand", sans-serif;
 }
 .textinblocks p {
   margin-bottom: 0;
@@ -108,8 +108,9 @@ header {
 }
 .textinblocks3 div {
   border: 2px;
-  background-color: #FFFFFF;
   box-shadow: 2px 4px 10px #000;
+  font-family: "Quicksand", sans-serif;
+  background-color: #FFFFFF;
   color: #000;
   margin: 10px;
   padding: 10px;
@@ -117,7 +118,6 @@ header {
   max-width: 300px;
   max-height: 300px;
   text-align: center;
-  font-family: "Quicksand", sans-serif;
 }
 .textinblocks3 h3 {
   padding: 5px;
