@@ -80,7 +80,7 @@ header {
   padding: 5px;
 }
 
-.principaltext {
+.principalText {
   text-align: center;
   font-size: 1.5rem;
   line-height: 1.5;
@@ -88,7 +88,7 @@ header {
   margin: 2% 10%;
 }
 
-.textinblocks div {
+.textInBlocks div {
   border: 2px;
   box-shadow: 2px 4px 10px #000;
   font-family: "Quicksand", sans-serif;
@@ -99,14 +99,14 @@ header {
   max-width: 400px;
   min-width: 200px;
 }
-.textinblocks p {
+.textInBlocks p {
   margin-bottom: 0;
 }
 
-.textinblocks3 p {
+.textInBlocks3 p {
   margin-bottom: 0;
 }
-.textinblocks3 div {
+.textInBlocks3 div {
   border: 2px;
   box-shadow: 2px 4px 10px #000;
   font-family: "Quicksand", sans-serif;
@@ -119,12 +119,12 @@ header {
   max-height: 300px;
   text-align: center;
 }
-.textinblocks3 h3 {
+.textInBlocks3 h3 {
   padding: 5px;
   margin: 10px;
 }
 
-.sectionmain h2 {
+.sectionMain h2 {
   text-align: center;
   color: #FFFFFF;
   font-size: 2.1rem;
@@ -181,11 +181,11 @@ h3 {
   margin-top: 20px;
 }
 
-.imagenpilares {
+.imagenPilares {
   width: 50%;
 }
 
-.imagentarjeta {
+.imagenTarjeta {
   max-height: 500px;
   animation-name: aparecer;
   animation-iteration-count: infinite;
@@ -198,7 +198,7 @@ h3 {
   min-width: 250px;
 }
 
-.divform {
+.divForm {
   box-shadow: 2px 4px 40px 4px #000;
   border-radius: 5%;
   max-width: 400px;
@@ -206,26 +206,26 @@ h3 {
   padding: 5px;
   background-color: #9FC2CC;
 }
-.divform .Form {
+.divForm .Form {
   width: 90%;
   max-width: 350px;
   text-align: center;
   margin: 20px;
 }
-.divform .Form label {
+.divForm .Form label {
   color: #000;
 }
-.divform .Form .inputForm {
+.divForm .Form .inputForm {
   width: 90%;
   max-width: 250px;
   padding: 2px;
   margin: 10px 11px;
   transition: all 0.5s ease-in-out;
 }
-.divform .Form .inputFocus:focus {
+.divForm .Form .inputFocus:focus {
   height: 40px;
 }
-.divform .Form .buttonReg {
+.divForm .Form .buttonReg {
   width: fit-content;
   margin: 10px 40px;
   padding: 4px;
@@ -257,13 +257,13 @@ h3 {
   font-size: 16px;
 }
 
-.iconoredes img {
+.iconoRedes img {
   width: 30px;
   margin: 0px 20px;
 }
 
 @media (min-width: 320px) and (max-width: 420px) {
-  .imagentarjeta {
+  .imagenTarjeta {
     max-height: 350px;
   }
   .imageninversion {
@@ -271,7 +271,7 @@ h3 {
   }
 }
 @media (max-width: 768px) {
-  .textpilares span {
+  .textPilares span {
     display: none;
   }
   .pilares .d-flex {

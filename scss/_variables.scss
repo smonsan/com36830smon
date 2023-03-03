@@ -12,7 +12,7 @@ $font-family_2: 'Quicksand', sans-serif;
     margin-bottom: 0;
 }
 
-@mixin divTextInBlocks {
+@mixin divtextInBlocks {
     border: 2px;
     box-shadow: 2px 4px 10px $color_2;
     font-family: $font-family_2;
