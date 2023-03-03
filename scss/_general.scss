@@ -1,12 +1,15 @@
 @import "https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;600;700&family=Roboto:wght@100;400;500;700;900&display=swap";
+
 * {
 	padding: 0%;
 	margin: 0%;
 	box-sizing: border-box;
 }
+
 html {
 	min-height: 100vh;
 }
+
 body {
 	font-family: $font-family_1;
 	color: $color_1;

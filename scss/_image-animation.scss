@@ -1,21 +1,25 @@
-
 @keyframes aparecer {
 	0% {
 		transform: perspective(800px) rotateY(-20deg);
 	}
+
 	25% {
 		transform: perspective(800px) rotateY(-10deg);
 	}
+
 	50% {
 		transform: perspective(800px) rotateY(0deg);
 	}
+
 	75% {
 		transform: perspective(800px) rotateY(-10deg);
 	}
+
 	100% {
 		transform: perspective(800px) rotateY(-20deg);
 	}
 }
+
 .section3 {
 	img {
 		height: 40%;
@@ -23,9 +27,11 @@
 
 	}
 }
+
 .imagenPilares {
 	width: 50%;
 }
+
 .imagenTarjeta {
 	max-height: 500px;
 	animation-name: aparecer;
@@ -33,6 +39,7 @@
 	animation-timing-function: ease-in;
 	animation-duration: 5s;
 }
+
 .imagenInversion {
 	max-width: 400px;
 	min-width: 250px;
