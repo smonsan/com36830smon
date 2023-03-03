@@ -1,31 +1,39 @@
 .footer {
-	background-color: $background-color_3;
-	background-size: cover;
-	background-position: top;
-	font-size: 18px;
-	text-align: center;
-	height: 79px;
+
+	background: hsla(248, 100%, 95%, 1);
+
+	background: linear-gradient(180deg, hsla(248, 100%, 95%, 1) 0%, hsla(197, 14%, 57%, 1) 100%);
+
+	background: -moz-linear-gradient(180deg, hsla(248, 100%, 95%, 1) 0%, hsla(197, 14%, 57%, 1) 100%);
+
+	background: -webkit-linear-gradient(180deg, hsla(248, 100%, 95%, 1) 0%, hsla(197, 14%, 57%, 1) 100%);
+
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#EBE8FF", endColorstr="#8399a2", GradientType=1);
+
+	color: $color_2;
+	height: 100px;
 	width: 100%;
-	margin-top: 40px;
 	position: absolute;
 	bottom: 0;
+	padding: 10px;
+
 	div {
 		margin: auto;
 		display: flex;
 		justify-content: center;
 		align-items: center;
-		flex-wrap: wrap;
 		width: 270px;
+
 		p {
-			margin: 2px;
-			padding: 8px;
+			padding: 10px;
 			font-size: 16px;
 		}
 	}
 }
+
 .iconoRedes {
 	img {
 		width: 30px;
-		margin: 0px 20px;
+		margin: 0px 20px 10px 20px;
 	}
 }

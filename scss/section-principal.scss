@@ -17,7 +17,7 @@
 
 .textInBlocks {
 	div {
-		@include divtextInBlocks;
+		@include divTextInBlocks;
 		background-color: $background-color_3;
 		margin: 20px 20px;
 		padding: 20px;
@@ -38,7 +38,7 @@
 	}
 
 	div {
-		@include divtextInBlocks;
+		@include divTextInBlocks;
 		background-color: $color_1;
 		color: $color_2;
 		margin: 10px;

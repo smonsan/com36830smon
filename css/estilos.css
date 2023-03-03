@@ -19,7 +19,7 @@ body {
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#272492", endColorstr="#42799A", GradientType=1);
   min-height: 100vh;
   position: relative;
-  padding-bottom: 150px;
+  padding-bottom: 200px;
 }
 
 header {
@@ -193,7 +193,7 @@ h3 {
   animation-duration: 5s;
 }
 
-.imageninversion {
+.imagenInversion {
   max-width: 400px;
   min-width: 250px;
 }
@@ -232,41 +232,40 @@ h3 {
 }
 
 .footer {
-  background-color: cornflowerblue;
-  background-size: cover;
-  background-position: top;
-  font-size: 18px;
-  text-align: center;
-  height: 79px;
+  background: hsl(248, 100%, 95%);
+  background: linear-gradient(180deg, hsl(248, 100%, 95%) 0%, hsl(197, 14%, 57%) 100%);
+  background: -moz-linear-gradient(180deg, hsl(248, 100%, 95%) 0%, hsl(197, 14%, 57%) 100%);
+  background: -webkit-linear-gradient(180deg, hsl(248, 100%, 95%) 0%, hsl(197, 14%, 57%) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#EBE8FF", endColorstr="#8399a2", GradientType=1);
+  color: #000;
+  height: 100px;
   width: 100%;
-  margin-top: 40px;
   position: absolute;
   bottom: 0;
+  padding: 10px;
 }
 .footer div {
   margin: auto;
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-wrap: wrap;
   width: 270px;
 }
 .footer div p {
-  margin: 2px;
-  padding: 8px;
+  padding: 10px;
   font-size: 16px;
 }
 
 .iconoRedes img {
   width: 30px;
-  margin: 0px 20px;
+  margin: 0px 20px 10px 20px;
 }
 
 @media (min-width: 320px) and (max-width: 420px) {
   .imagenTarjeta {
     max-height: 350px;
   }
-  .imageninversion {
+  .imagenInversion {
     max-width: 300px;
   }
 }

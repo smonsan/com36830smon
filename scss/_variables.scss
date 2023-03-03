@@ -4,6 +4,7 @@ $background-color_1: #3158A6;
 $background-color_2: transparent;
 $background-color_3: cornflowerblue;
 $background-color_4: #9FC2CC;
+$background-color_5: #F4F6F6;
 $background-image_1: radial-gradient(circle, #F0F3F4, #85929E);
 $font-family_1: 'Roboto', sans-serif;
 $font-family_2: 'Quicksand', sans-serif;
@@ -12,7 +13,7 @@ $font-family_2: 'Quicksand', sans-serif;
     margin-bottom: 0;
 }
 
-@mixin divtextInBlocks {
+@mixin divTextInBlocks {
     border: 2px;
     box-shadow: 2px 4px 10px $color_2;
     font-family: $font-family_2;
