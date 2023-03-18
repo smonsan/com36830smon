@@ -37,6 +37,13 @@
 	}
 }
 
+
+@media (min-width:770px) {
+	.imagenPilares {
+		max-width: 648px;
+	}
+}
+
 @media (max-width:990px) {
 	.dropdown-menu.show {
 		background-color: $background-color_2;

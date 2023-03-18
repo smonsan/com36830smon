@@ -181,7 +181,7 @@ h3 {
 }
 
 .imagenPilares {
-  width: 50%;
+  min-width: 290px;
 }
 
 .imagenTarjeta {
@@ -328,6 +328,11 @@ h3 {
   .pilares .d-flex {
     flex-wrap: wrap;
     justify-content: center;
+  }
+}
+@media (min-width: 770px) {
+  .imagenPilares {
+    max-width: 648px;
   }
 }
 @media (max-width: 990px) {
