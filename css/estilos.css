@@ -232,7 +232,7 @@ h3 {
   font-weight: 500;
   transition: all 0.5s ease-in-out;
 }
-.divForm .Form .buttonEfect:hover {
+.divForm .Form .buttonReg:hover {
   background-image: radial-gradient(#85929E, #F0F3F4);
 }
 
@@ -262,13 +262,11 @@ h3 {
   padding: 5px;
   margin: 15px;
 }
-.calculator div div div form button {
+.calculator div div div form .botonConvertidorMoneda {
   width: 200px;
   margin: 15px;
   background-image: radial-gradient(circle, #F0F3F4, #85929E);
   transition: all 0.5s ease-in-out;
-}
-.calculator div div div form .botonConvertidorMoneda {
   font-size: 1.5rem;
   font-weight: 600;
 }

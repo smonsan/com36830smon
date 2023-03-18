@@ -35,17 +35,12 @@
 			width: fit-content;
 			margin: 10px 40px;
 			padding: 4px;
-            font-weight: 500;
+			font-weight: 500;
 			transition: all .5s ease-in-out;
-		
-		}
 
-		.buttonEfect {
 			&:hover {
 				background-image: radial-gradient(#85929E, #F0F3F4);
 			}
 		}
-
 	}
-
 }
