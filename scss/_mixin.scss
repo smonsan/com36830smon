@@ -1,0 +1,23 @@
+@mixin parrafos {
+    margin-bottom: 0;
+}
+
+@mixin divTextInBlocks {
+    border: 2px;
+    box-shadow: 2px 4px 10px $color_2;
+    font-family: $font-family_2;
+}
+
+@mixin labelInputsFormInReg {
+    width: 100%;
+    max-width: 250px;
+    min-width: 250px;
+    padding: 2px;
+    margin: 10px 0px;
+}
+
+@mixin inputButtonFormInReg {
+    border: $color_2 solid 1px;
+    border-radius: 4px;
+    transition: all .5s ease-in-out;
+}
