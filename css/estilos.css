@@ -94,7 +94,7 @@ header {
   background-color: cornflowerblue;
   margin: 20px 20px;
   padding: 20px;
-  border-radius: 4%;
+  border-radius: 20px;
   max-width: 400px;
   min-width: 200px;
 }
@@ -199,7 +199,7 @@ h3 {
 
 .divForm {
   box-shadow: 2px 4px 40px 4px #000;
-  border-radius: 5%;
+  border-radius: 20px;
   max-width: 400px;
   margin: auto;
   padding: 5px;
@@ -210,8 +210,19 @@ h3 {
   max-width: 350px;
   margin: 20px;
 }
+.divForm .Form label {
+  color: #000;
+}
 .divForm .Form .inputDiv {
   width: max-content;
+}
+.divForm .Form .labelCheck {
+  width: 100%;
+  max-width: 250px;
+  min-width: 250px;
+  padding: 2px;
+  margin: 10px 0px;
+  font-weight: 500;
 }
 .divForm .Form .inputForm {
   width: 100%;
@@ -219,6 +230,8 @@ h3 {
   min-width: 250px;
   padding: 2px;
   margin: 10px 0px;
+  border: #000 solid 1px;
+  border-radius: 4px;
   transition: all 0.5s ease-in-out;
 }
 .divForm .Form .inputFocus:focus {
@@ -230,6 +243,8 @@ h3 {
   margin: 10px 40px;
   padding: 4px;
   font-weight: 500;
+  border: #000 solid 1px;
+  border-radius: 4px;
   transition: all 0.5s ease-in-out;
 }
 .divForm .Form .buttonReg:hover {
@@ -239,7 +254,7 @@ h3 {
 .calculator div div {
   background-color: #033048;
   max-width: 400px;
-  border-radius: 5%;
+  border-radius: 20px;
 }
 .calculator div div h2 {
   text-align: center;
@@ -252,19 +267,15 @@ h3 {
   flex-direction: column;
   align-items: center;
 }
-.calculator div div div form input {
-  display: block;
-  padding: 3px;
-  margin: 15px;
-}
-.calculator div div div form div select {
+.calculator div div div form .inputMonto, .calculator div div div form .botonConvertidorMoneda, .calculator div div div form div select {
   display: block;
   padding: 5px;
   margin: 15px;
+  border: #000 solid 1px;
+  border-radius: 5px;
 }
 .calculator div div div form .botonConvertidorMoneda {
   width: 200px;
-  margin: 15px;
   background-image: radial-gradient(circle, #F0F3F4, #85929E);
   transition: all 0.5s ease-in-out;
   font-size: 1.5rem;

@@ -20,3 +20,17 @@ $font-family_2: 'Quicksand', sans-serif;
     box-shadow: 2px 4px 10px $color_2;
     font-family: $font-family_2;
 }
+
+@mixin labelInputsFormInReg {
+    width: 100%;
+    max-width: 250px;
+    min-width: 250px;
+    padding: 2px;
+    margin: 10px 0px;
+}
+
+@mixin inputButtonFormInReg {
+    border: $color_2 solid 1px;
+    border-radius: 4px;
+    transition: all .5s ease-in-out;
+}

@@ -1,6 +1,6 @@
 .divForm {
 	box-shadow: 2px 4px 40px 4px $color_2;
-	border-radius: 5%;
+	border-radius: 20px;
 	max-width: 400px;
 	margin: auto;
 	padding: 5px;
@@ -11,17 +11,22 @@
 		max-width: 350px;
 		margin: 20px;
 
+		label {
+			color: $color_2;
+		}
+
 		.inputDiv {
 			width: max-content;
 		}
 
+		.labelCheck {
+			@include labelInputsFormInReg;
+			font-weight: 500;
+		}
+
 		.inputForm {
-			width: 100%;
-			max-width: 250px;
-			min-width: 250px;
-			padding: 2px;
-			margin: 10px 0px;
-			transition: all .5s ease-in-out;
+			@include labelInputsFormInReg;
+			@include inputButtonFormInReg;
 		}
 
 		.inputFocus {
@@ -36,7 +41,7 @@
 			margin: 10px 40px;
 			padding: 4px;
 			font-weight: 500;
-			transition: all .5s ease-in-out;
+			@include inputButtonFormInReg;
 
 			&:hover {
 				background-image: radial-gradient(#85929E, #F0F3F4);
