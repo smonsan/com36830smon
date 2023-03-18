@@ -4,7 +4,7 @@
             background-color: #033048;
             max-width: 400px;
             border-radius: 5%;
-
+            
             h2 {
                 text-align: center;
                 display: inline-block;
@@ -52,4 +52,8 @@
 
         }
     }
+}
+
+.calcDiv{
+    box-shadow: $color_2 2px 6px 40px 6px;
 }

@@ -27,8 +27,7 @@ header {
 }
 
 .imagenLogo {
-  width: 150px;
-  height: 40px;
+  width: 200px;
 }
 
 .nav-link {
@@ -275,6 +274,10 @@ h3 {
 }
 .calculator div div div form .botonConvertidorMoneda:hover {
   background-image: radial-gradient(#85929E, #F0F3F4);
+}
+
+.calcDiv {
+  box-shadow: #000 2px 6px 40px 6px;
 }
 
 .footer {
