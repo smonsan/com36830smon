@@ -1,0 +1,55 @@
+.calculator {
+    div {
+        div {
+            background-color: #033048;
+            max-width: 400px;
+            border-radius: 5%;
+
+            h2 {
+                text-align: center;
+                display: inline-block;
+                padding: 5px;
+                margin: 15px;
+            }
+
+            div {
+                form {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+
+                    input {
+                        display: block;
+                        padding: 3px;
+                        margin: 15px;
+                    }
+
+                    div {
+                        select {
+                            display: block;
+                            padding: 5px;
+                            margin: 15px;
+                        }
+                    }
+
+                    button {
+                        width: 200px;
+                        margin: 15px;
+                        background-image: $background-image_1;
+                        transition: all .5s ease-in-out;
+
+                    }
+
+                    .botonConvertidorMoneda {
+                        font-size: 1.5rem;
+                        font-weight: 600;
+                        &:hover {
+                            background-image: $background-image_2;
+                        }
+                    }
+                }
+            }
+
+        }
+    }
+}

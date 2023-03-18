@@ -15,7 +15,7 @@
 
 
 <body class="container-fluid text-center">
-    
+
     <!-- AQUI VA EL HEADER CON EL NAVBAR -->
     <header>
         <nav class="navbar navbar-expand-lg">
@@ -46,11 +46,13 @@
                             <a class="nav-link" href="Quienes-somos.html">Nosotros</a>
                         </li>
                         <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="Como-empezar.html">Como empezar</a>
+                        </li>
+                        <li class="nav-item">
                             <a class="nav-link" href="Ingresar.html">Inicia Sesión</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page"
-                                href="Registrarse.html">Registrate</a>
+                            <a class="nav-link active" aria-current="page" href="Registrarse.html">Registrate</a>
                         </li>
                     </ul>
                 </div>
@@ -63,30 +65,34 @@
     </div>
 
     <!-- AQUI COMIENZA EL FORMULARIO DE REGISTRO -->
-    <div class="divForm container-fluid">
-        <Form class="Form d-flex flex-column align-items-center">
-            <label class="d-md-none align-self-start  ms-5" for="name">Nombre</label>
-            <input class="inputForm inputFocus" type="text" id="name" placeholder="Ingrese su Nombre">
-            <label class="d-md-none align-self-start ms-5" for="lastName">Apellido</label>
-            <input class="inputForm inputFocus" type="text" id="lastName" placeholder="Ingrese su Apellido">
-            <label class="d-md-none align-self-start ms-5" for="dni">Numero de DNI</label>
-            <input class="inputForm inputFocus" type="number" id="dni" placeholder="Ingrese su numero de DNI">
-            <label class="d-md-none align-self-start ms-5" for="emailReg">Email</label>
-            <input class="inputForm inputFocus" type="email" id="emailReg" placeholder="Ingrese su email">
-            <label class="d-md-none align-self-start ms-5" for="birthdayDate">Fecha de nacimiento</label>
-            <input class="inputForm inputFocus" type="date" id="birthdayDate" title="Ingrese su fecha de nacimiento"
-                placeholder="Ingrese su fecha de Nacimiento">
-            <label class="d-md-none align-self-start ms-5" for="passwordReg">Password</label>
-            <input class="inputForm inputFocus" type="password" id="passwordReg" placeholder="Ingrese su contraseña">
-            <label class="d-md-none align-self-start ms-5" for="passwordReg2">Reingrese su Password</label>
-            <input class="inputForm inputFocus" type="password" id="passwordReg2" placeholder="Repita su contraseña">
+    <div class="divForm container-fluid row">
+        <Form class="Form col d-flex flex-column align-items-center">
+            <div class=" inputDiv d-flex flex-column align-items-start">
+                <label class="d-md-none " for="name">Nombre</label>
+                <input class="inputForm inputFocus" type="text" id="name" placeholder="Ingrese su Nombre">
+                <label class="d-md-none" for="lastName">Apellido</label>
+                <input class="inputForm inputFocus" type="text" id="lastName" placeholder="Ingrese su Apellido">
+                <label class="d-md-none" for="dni">Numero de DNI</label>
+                <input class="inputForm inputFocus" type="number" id="dni" placeholder="Ingrese su numero de DNI">
+                <label class="d-md-none" for="emailReg">Email</label>
+                <input class="inputForm inputFocus" type="email" id="emailReg" placeholder="Ingrese su email">
+                <label class="d-md-none" for="birthdayDate">Fecha de nacimiento</label>
+                <input class="inputForm inputFocus" type="date" id="birthdayDate" title="Ingrese su fecha de nacimiento"
+                    placeholder="Ingrese su fecha de Nacimiento">
+                <label class="d-md-none" for="passwordReg">Password</label>
+                <input class="inputForm inputFocus" type="password" id="passwordReg"
+                    placeholder="Ingrese su contraseña">
+                <label class="d-md-none" for="passwordReg2">Reingrese su Password</label>
+                <input class="inputForm inputFocus" type="password" id="passwordReg2"
+                    placeholder="Repita su contraseña">
+            </div>
             <div class=" d-flex flex-column flex-md-row">
                 <label class="inputForm" for="Terms">Acepto terminos y condiciones</label>
                 <input type="checkbox" name="acepto" value=1 id="Terms">
             </div>
             <div>
-                <input class="inputForm buttonReg" type="submit">
-                <input class="inputForm buttonReg" type="reset">
+                <input class="buttonReg buttonEfect" type="submit">
+                <input class="buttonReg buttonEfect" type="reset">
             </div>
         </Form>
     </div>

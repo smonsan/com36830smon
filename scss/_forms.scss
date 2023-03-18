@@ -9,18 +9,18 @@
 	.Form {
 		width: 90%;
 		max-width: 350px;
-		text-align: center;
 		margin: 20px;
 
-		label {
-			color: $color_2;
+		.inputDiv {
+			width: max-content;
 		}
 
 		.inputForm {
-			width: 90%;
+			width: 100%;
 			max-width: 250px;
+			min-width: 250px;
 			padding: 2px;
-			margin: 10px 11px;
+			margin: 10px 0px;
 			transition: all .5s ease-in-out;
 		}
 
@@ -31,9 +31,21 @@
 		}
 
 		.buttonReg {
+			background-image: $background-image_1 ;
 			width: fit-content;
 			margin: 10px 40px;
 			padding: 4px;
+            font-weight: 500;
+			transition: all .5s ease-in-out;
+		
 		}
+
+		.buttonEfect {
+			&:hover {
+				background-image: radial-gradient(#85929E, #F0F3F4);
+			}
+		}
+
 	}
+
 }

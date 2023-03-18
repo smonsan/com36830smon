@@ -209,26 +209,72 @@ h3 {
 .divForm .Form {
   width: 90%;
   max-width: 350px;
-  text-align: center;
   margin: 20px;
 }
-.divForm .Form label {
-  color: #000;
+.divForm .Form .inputDiv {
+  width: max-content;
 }
 .divForm .Form .inputForm {
-  width: 90%;
+  width: 100%;
   max-width: 250px;
+  min-width: 250px;
   padding: 2px;
-  margin: 10px 11px;
+  margin: 10px 0px;
   transition: all 0.5s ease-in-out;
 }
 .divForm .Form .inputFocus:focus {
   height: 40px;
 }
 .divForm .Form .buttonReg {
+  background-image: radial-gradient(circle, #F0F3F4, #85929E);
   width: fit-content;
   margin: 10px 40px;
   padding: 4px;
+  font-weight: 500;
+  transition: all 0.5s ease-in-out;
+}
+.divForm .Form .buttonEfect:hover {
+  background-image: radial-gradient(#85929E, #F0F3F4);
+}
+
+.calculator div div {
+  background-color: #033048;
+  max-width: 400px;
+  border-radius: 5%;
+}
+.calculator div div h2 {
+  text-align: center;
+  display: inline-block;
+  padding: 5px;
+  margin: 15px;
+}
+.calculator div div div form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.calculator div div div form input {
+  display: block;
+  padding: 3px;
+  margin: 15px;
+}
+.calculator div div div form div select {
+  display: block;
+  padding: 5px;
+  margin: 15px;
+}
+.calculator div div div form button {
+  width: 200px;
+  margin: 15px;
+  background-image: radial-gradient(circle, #F0F3F4, #85929E);
+  transition: all 0.5s ease-in-out;
+}
+.calculator div div div form .botonConvertidorMoneda {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+.calculator div div div form .botonConvertidorMoneda:hover {
+  background-image: radial-gradient(#85929E, #F0F3F4);
 }
 
 .footer {
@@ -267,6 +313,9 @@ h3 {
   }
   .imagenInversion {
     max-width: 300px;
+  }
+  .calculator div div div form div select {
+    margin: 6px;
   }
 }
 @media (max-width: 768px) {

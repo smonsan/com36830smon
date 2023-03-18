@@ -6,16 +6,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description"
-        content="Somos un grupo de inversores y asesores finacieros con la misión de ofrecerte herramientas de Ahorro e inversion en Moneda Estable Digital. Ingresar a la economia Digital nunca fue tan fácil.">
+        content="Utiliza nuestra Calculadora y empeza a Ahorrar e Invertir en Moneda Estable Digital">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/estilos.css">
     <link rel="shortcut icon" href="../images/fav-icon3-db.png" type="image/x-icon">
-    <title>Nosotros | DOLARBITS</title>
+    <title>Como Empezar | DOLARBITS</title>
 </head>
 
 <body class="container-fluid text-center">
-    
+
     <!-- AQUI VA EL HEADER CON EL NAVBAR -->
     <header>
         <nav class="navbar navbar-expand-lg">
@@ -43,12 +43,10 @@
                             </ul>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page"
-                                href="Quienes-somos.html">Nosotros</a>
+                            <a class="nav-link" aria-current="page" href="Quienes-somos.html">Nosotros</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" aria-current="page"
-                                href="Como-empezar.html">Como empezar</a>
+                            <a class="nav-link active" aria-current="page" href="Como-empezar.html">Como empezar</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="Ingresar.html">Inicia Sesión</a>
@@ -64,61 +62,54 @@
 
     <!-- AQUI COMIENZA LA SECCION PRINCIPAL -->
     <main>
-        <h1 class="principal">Nosotros</h1>
+        <h1 class="principal">Empezá Convirtiendo tus Pesos o Dolares a Moneda Estable Digital</h1>
 
         <section p class="principalText">
             <div>
-                <p>Somos un grupo de inversores que trabajamos en equipo para facilitar el Ahorro y la Inversión en
-                    Monedas Estables Digitales (Stable Coin) de forma rápida, segura y simple para el público en
-                    general.
-                    Tenemos en conjunto más de 40 años de experiencia en la industria financiera y tecnológica. <br><br>
-                    Tenemos la convicción que, para ayudar al desarrollo del país, es fundamental facilitar el ahorro al
-                    menor costo posible, compitiendo para ofrecer los mejores servicios y productos aportando ventajas a
-                    los clientes. <br><br>
-                    Para ello desarrollamos una plataforma que interactúa con el sistema de pagos bancario, soportados
-                    con la mejor tecnología y en total cumplimiento de los requerimientos regulatorios del Banco Central
-                    de la República Argentina y la Unidad de Información Financiera. Nuestra operatoria se encuentra
-                    supervisada por ambas entidades, ajustada a todas las regulaciones y normas vigentes.
+                <p>Utilizá nuestra convertidor de monedas para calcular el monto a Ahorrar e Invertir en Moneda Estable
+                    Digital
                 </p>
             </div>
-        </section>
+
     </main>
 
-    <!-- AQUI COMIENZAN LOS BLOQUES MISION VALOR VISION CON IMAGEN -->
-    <section class="sectionMain container pilares">
-        <h2>Cuales son nuestros 3 pilares</h2>
-        <div class=" section d-flex flex-column">
-            <div>
-                <img class="imagenPilares" src="../images/misionvaloresvision.png" alt="misionvisionvalores">
-            </div>
-            <div class="textInBlocks  textPilares d-flex">
+    <!-- AQUI COMIENZA LA CALCULADORA -->
+    <section class="calculator d-flex justify-content-center">
+        <div class="row container-fluid justify-content-center">
+            <div class="col d-flex flex-column align-items-center">
                 <div>
-                    <h3>Misión</h3>
-                    <p><span> Nuestra principal misión es </span> asesorar a nuestros clientes para que <span>, de
-                        acuerdo con su perfil de Inversor o Ahorrista, </span>puedan elegir nuestro <span> tipo de
-                        </span> producto o servicio más conveniente <span> en un mercado finaciero cada vez más
-                        dinámico</span>.</p>
+                    <h2> Calcula Aquí</h2>
                 </div>
-
                 <div>
-                    <h3>Visión</h3>
-                    <p> <span> Trabajamos con la mirada puesta en el futuro ofrecemos </span> una plataforma digital
-                        amigable con el usuario <span> pensada </span> para poner al alcance <span> de nuestros clientes
-                        </span> herramientas que les permitan desarrollarse <span> y tomar ventaja en el uso de la
-                        economía digital </span>.
-                    </p>
+                    <img class="img-fluid" src="../images/EXCHANGELOGO.png" alt="IntercambioMonedasExchange">
                 </div>
-
                 <div>
-                    <h3>Valores</h3>
-                    <p> <span> La piedra angular de nuestros pilares son la </span> Integridad, Transparencia y
-                        Eficiencia. <span> Los mismos valores que </span>nos han permitido desarrollarnos <span> y
-                        crecer junto a nuestro equipo formado por los mejores expertos </span> en la industria
-                        financiera y <span>tecnología </span> blockchain.</p>
+                    <form action="">
+                        <input type="number" name="MontoAConvertir" id="MontoAConvertir" placeholder="Ingrese Monto">
+                        <div class="seleccionarMoneda d-flex justify-content-center">
+                            <select name="desdeMoneda" id="desdeMoneda">
+                                <option value="Peso Argentino">ARS - Peso Argentino</option>
+                                <option value="Dolar Americano">USD - Dolar Americano</option>
+                            </select>
+
+                            <select name="aMoneda" id="aMoneda">
+                                <option value="DAI">DAI</option>
+                                <option value="USDT">USDT</option>
+                            </select>
+                        </div>
+
+                        <button type="button" id="Convertidor" class="botonConvertidorMoneda">Convertir</button>
+
+                    </form>
+
+                    <p id="Resultado"></p>
                 </div>
             </div>
         </div>
+
     </section>
+
+
 
     <!-- AQUI COMIENZA LA SECCION DE CAROUSEL CON COMENTARIOS DE CLIENTES -->
     <section class="sectionMain container">
@@ -189,6 +180,8 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
         crossorigin="anonymous"></script>
+    
+    <!-- AQUI IRA EL JAVASCRIPT PARA HACER FUNCIONAL A LA CALCULADORA -->
 
 </body>
 
